@@ -1,0 +1,176 @@
+body {
+    background: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    color: #545454;
+}
+
+.block-features {
+    background-color: #ffff;
+}
+
+h2 {
+    margin: 146px auto 0 auto;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #898f99;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    color: #0ec8cb;
+    margin: 0 auto 0 auto;
+    width: 513px;
+    text-transform: uppercase;
+}
+
+h3 {
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    color: #999999;
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    width: 513px;
+    margin: 0 auto 78px auto;
+}
+
+.mainer {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.block-features .wrapper {
+    display: flex;
+    margin: 0 -10px 138px -10px;
+}
+
+.block-features .cell {
+    flex-grow: 1;
+    padding: 56px 28px 97px 28px;
+    background-color: #f7f7f7;
+    border: 1px solid #ececec;
+    box-sizing: border-box;
+}
+
+.block-features .cell:hover {
+    background-color: #0ec8cb;
+}
+
+.block-features .icon_anchor {
+    width: 66px;
+    height: 66px;
+    background-image: url(./images/anchor.png);
+    margin: 0 auto 56px auto;
+}
+
+.block-features .icon_diamond {
+    width: 66px;
+    height: 66px;
+    background-image: url(./images/diamond.png);
+    margin: 0 auto 56px auto;
+    color: #000000;
+}
+
+.block-features .icon_eyeglasses {
+    width: 66px;
+    height: 66px;
+    background-image: url(./images/eyeglasses.png);
+    margin: 0 auto 56px auto;
+}
+
+.block-features .icon_monitor {
+    width: 66px;
+    height: 66px;
+    background-image: url(./images/monitor.png);
+    margin: 0 auto 56px auto;
+}
+
+.block-features .caption {
+    display: flex;
+    height: 50px;
+    text-transform: uppercase;
+    font-size: 21px;
+    color: #1b1b1b;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 17px auto;
+}
+
+.cell:hover .caption {
+    color: #fff;
+}
+
+.cell:hover .description {
+    color: #fff;
+}
+
+.block-features .description {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #777777;
+    font-family: 'PT Sans', sans-serif;
+    line-height: 22px;
+}
+
+.cell:hover .icon_anchor {
+     background-image: url(./images/anchor_white.png);
+}
+
+.cell:hover .icon_diamond {
+    background-image: url(./images/diamond_white.png);
+}
+
+.cell:hover .icon_eyeglasses {
+    background-image: url(./images/eyeglasses_white.png);
+}
+
+.cell:hover .icon_monitor {
+    background-image: url(./images/monitor_white.png);
+}
